@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B247621CA8158700B87218 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247611CA8158700B87218 /* main.c */; };
+		33B247621CA8158700B87218 /* Ejercicio3.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247611CA8158700B87218 /* Ejercicio3.c */; };
+		33B2476A1CA8333A00B87218 /* forkSimple.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247691CA8333A00B87218 /* forkSimple.c */; };
+		33B2476C1CA87C9600B87218 /* Ejercicio4.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B2476B1CA87C9600B87218 /* Ejercicio4.c */; };
+		33B2477E1CAC3AED00B87218 /* hilos_exit.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247791CAC3AED00B87218 /* hilos_exit.c */; };
+		33B2477F1CAC3AED00B87218 /* hilos_join.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B2477A1CAC3AED00B87218 /* hilos_join.c */; };
+		33B247801CAC3AED00B87218 /* hilos.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B2477B1CAC3AED00B87218 /* hilos.c */; };
+		33B247811CAC3AED00B87218 /* hilosyvariables.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B2477C1CAC3AED00B87218 /* hilosyvariables.c */; };
+		33B247821CAC3AED00B87218 /* hilosyvariables2.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B2477D1CAC3AED00B87218 /* hilosyvariables2.c */; };
+		33B247881CAC3C3300B87218 /* hilos1.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247831CAC3C3300B87218 /* hilos1.c */; };
+		33B247891CAC3C3300B87218 /* hilos2.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247841CAC3C3300B87218 /* hilos2.c */; };
+		33B2478A1CAC3C3300B87218 /* lect_escr.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247851CAC3C3300B87218 /* lect_escr.c */; };
+		33B2478B1CAC3C3300B87218 /* prod_consum.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247861CAC3C3300B87218 /* prod_consum.c */; };
+		33B2478C1CAC3C3300B87218 /* prod_consum2.c in Sources */ = {isa = PBXBuildFile; fileRef = 33B247871CAC3C3300B87218 /* prod_consum2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,19 @@
 
 /* Begin PBXFileReference section */
 		33B2475E1CA8158700B87218 /* SistemasOperativos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SistemasOperativos; sourceTree = BUILT_PRODUCTS_DIR; };
-		33B247611CA8158700B87218 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		33B247611CA8158700B87218 /* Ejercicio3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Ejercicio3.c; sourceTree = "<group>"; };
+		33B247691CA8333A00B87218 /* forkSimple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = forkSimple.c; sourceTree = "<group>"; };
+		33B2476B1CA87C9600B87218 /* Ejercicio4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ejercicio4.c; sourceTree = "<group>"; };
+		33B247791CAC3AED00B87218 /* hilos_exit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilos_exit.c; sourceTree = "<group>"; };
+		33B2477A1CAC3AED00B87218 /* hilos_join.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilos_join.c; sourceTree = "<group>"; };
+		33B2477B1CAC3AED00B87218 /* hilos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilos.c; sourceTree = "<group>"; };
+		33B2477C1CAC3AED00B87218 /* hilosyvariables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilosyvariables.c; sourceTree = "<group>"; };
+		33B2477D1CAC3AED00B87218 /* hilosyvariables2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilosyvariables2.c; sourceTree = "<group>"; };
+		33B247831CAC3C3300B87218 /* hilos1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilos1.c; sourceTree = "<group>"; };
+		33B247841CAC3C3300B87218 /* hilos2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hilos2.c; sourceTree = "<group>"; };
+		33B247851CAC3C3300B87218 /* lect_escr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lect_escr.c; sourceTree = "<group>"; };
+		33B247861CAC3C3300B87218 /* prod_consum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prod_consum.c; sourceTree = "<group>"; };
+		33B247871CAC3C3300B87218 /* prod_consum2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prod_consum2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,37 @@
 		33B247601CA8158700B87218 /* SistemasOperativos */ = {
 			isa = PBXGroup;
 			children = (
-				33B247611CA8158700B87218 /* main.c */,
+				33B2476E1CAAD24200B87218 /* Hilos */,
+				33B247681CA816CA00B87218 /* Procesos */,
 			);
 			path = SistemasOperativos;
+			sourceTree = "<group>";
+		};
+		33B247681CA816CA00B87218 /* Procesos */ = {
+			isa = PBXGroup;
+			children = (
+				33B247611CA8158700B87218 /* Ejercicio3.c */,
+				33B247691CA8333A00B87218 /* forkSimple.c */,
+				33B2476B1CA87C9600B87218 /* Ejercicio4.c */,
+			);
+			name = Procesos;
+			sourceTree = "<group>";
+		};
+		33B2476E1CAAD24200B87218 /* Hilos */ = {
+			isa = PBXGroup;
+			children = (
+				33B247831CAC3C3300B87218 /* hilos1.c */,
+				33B247841CAC3C3300B87218 /* hilos2.c */,
+				33B247851CAC3C3300B87218 /* lect_escr.c */,
+				33B247861CAC3C3300B87218 /* prod_consum.c */,
+				33B247871CAC3C3300B87218 /* prod_consum2.c */,
+				33B247791CAC3AED00B87218 /* hilos_exit.c */,
+				33B2477A1CAC3AED00B87218 /* hilos_join.c */,
+				33B2477B1CAC3AED00B87218 /* hilos.c */,
+				33B2477C1CAC3AED00B87218 /* hilosyvariables.c */,
+				33B2477D1CAC3AED00B87218 /* hilosyvariables2.c */,
+			);
+			name = Hilos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B247621CA8158700B87218 /* main.c in Sources */,
+				33B247891CAC3C3300B87218 /* hilos2.c in Sources */,
+				33B247621CA8158700B87218 /* Ejercicio3.c in Sources */,
+				33B247811CAC3AED00B87218 /* hilosyvariables.c in Sources */,
+				33B2478B1CAC3C3300B87218 /* prod_consum.c in Sources */,
+				33B2477E1CAC3AED00B87218 /* hilos_exit.c in Sources */,
+				33B2478A1CAC3C3300B87218 /* lect_escr.c in Sources */,
+				33B2476C1CA87C9600B87218 /* Ejercicio4.c in Sources */,
+				33B2478C1CAC3C3300B87218 /* prod_consum2.c in Sources */,
+				33B247801CAC3AED00B87218 /* hilos.c in Sources */,
+				33B2476A1CA8333A00B87218 /* forkSimple.c in Sources */,
+				33B247821CAC3AED00B87218 /* hilosyvariables2.c in Sources */,
+				33B2477F1CAC3AED00B87218 /* hilos_join.c in Sources */,
+				33B247881CAC3C3300B87218 /* hilos1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
