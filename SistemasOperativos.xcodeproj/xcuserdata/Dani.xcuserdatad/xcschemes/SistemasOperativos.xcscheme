@@ -61,6 +61,12 @@
             ReferencedContainer = "container:SistemasOperativos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-i  /Users/Dani/Documents/SistemasOperativos/SistemasOperativos/SistemasOperativos/examples/example1.txt -s FCFS"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
