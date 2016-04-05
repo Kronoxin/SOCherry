@@ -16,7 +16,7 @@ static task_t* pick_next_task_prio(runqueue_t* rq,int cpu) {
 static int compare_tasks_cpu_burst(void *t1,void *t2) {
 	task_t* tsk1=(task_t*)t1;
 	task_t* tsk2=(task_t*)t2;
-	//return tsk1->runnable_ticks_left-tsk2->runnable_ticks_left;
+	
     //consideramos que el 0 es el elemento más prioritario.
     return tsk1->prio-tsk2->prio;
 }
@@ -45,7 +45,7 @@ static void enqueue_task_prio(task_t* t,int cpu, int runnable) {
         
         /* Trigger a preemption if this task has a shorter CPU burst than current */
         //cuando el elemento más prioritario es 0 ; t->prio < current->prio
-        //cuando el elemento más prioritario es X ; t->prio > current->prio
+        //cuando el elemento más prioritario es +inf ; t->prio > current->prio
         
         if (preemptive_scheduler && !is_idle_task(current) && t->prio<current->prio) {
             rq->need_resched=TRUE;
