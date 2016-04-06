@@ -69,6 +69,7 @@
 		33B2479D1CB3DD2C00B87218 /* barrier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = barrier.c; sourceTree = "<group>"; };
 		33B2479E1CB3DD2C00B87218 /* barrier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barrier.h; sourceTree = "<group>"; };
 		33B247A01CB3F12700B87218 /* sched_prio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sched_prio.c; sourceTree = "<group>"; };
+		454EBC2F1CB56A1000D03471 /* script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +139,7 @@
 		33B2478D1CB3D43F00B87218 /* Practica3 */ = {
 			isa = PBXGroup;
 			children = (
+				454EBC2F1CB56A1000D03471 /* script.sh */,
 				33B247A01CB3F12700B87218 /* sched_prio.c */,
 				33B2479D1CB3DD2C00B87218 /* barrier.c */,
 				33B2479E1CB3DD2C00B87218 /* barrier.h */,
@@ -351,6 +353,7 @@
 				33B247671CA8158700B87218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
