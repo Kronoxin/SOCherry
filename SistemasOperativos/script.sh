@@ -23,6 +23,7 @@ echo "Error, debes introducir un numero dentro del rango."
 echo "Introduzca el numero de cpus(1-8):"
 read cpus;
 done
+rm -R resultados;
 mkdir -p resultados;
 
 

@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
 			break;
 		case 'L':
 			i=0;
-			
+			// MODIFICADO.
 			//printf("Available schedulers:\n");
 			for (i=0; i<NR_AVAILABLE_SCHEDULERS ; i++){
 				printf ("%s\n",available_schedulers[i].sched_name);	
